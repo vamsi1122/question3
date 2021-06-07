@@ -3,7 +3,7 @@ import glob
 import subprocess
 #input('These are the files created:')
 
-root = os.path.join('/root/autodata/')
+root = os.path.join('/root/questhree/autodata/')
 
 for directory, subdir_list, file_list in os.walk(root):
     print 'Directory:', directory
